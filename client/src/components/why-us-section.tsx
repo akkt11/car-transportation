@@ -11,7 +11,7 @@ export const WhyUsSection = () => {
       <div className="flex flex-row-reverse">
         <div>
           <img
-            src="../../public/assets/2023-Audi-R8-front_51535_032_1848x697_6Y6Y_cropped.png"
+            src="/assets/2023-Audi-R8-front_51535_032_1848x697_6Y6Y_cropped.png"
             alt="blue bwm car"
             className="absolute -translate-x-[400px] w-[900px] left-0 bottom-40"
           />

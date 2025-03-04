@@ -44,7 +44,7 @@ export const AboutUsSection = () => {
         </div>
         <div className="z-50">
           <RateCard
-            image="../../public/assets/woman 1.png"
+            image="/assets/woman 1.png"
             name="Jenny Wilson"
             comment="«Я пользуюсь вашими услугами уже 3 года. Ваш сервис великолепен, я буду продолжать пользоваться вашими услугами»."
             city="Moscow"
