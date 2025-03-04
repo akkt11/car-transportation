@@ -41,7 +41,7 @@ export const AboutUsSection = () => {
         navigation
         modules={[EffectCoverflow, Pagination, Navigation]}
       >
-        <SwiperSlide>
+        <SwiperSlide className="py-4">
           <RateCard
             image="/assets/man 1.png"
             name="Charlie Johnson"
@@ -52,7 +52,7 @@ export const AboutUsSection = () => {
           />
         </SwiperSlide>
 
-        <SwiperSlide>
+        <SwiperSlide className="py-4">
           <RateCard
             image="/assets/woman 1.png"
             name="Jenny Wilson"
@@ -61,7 +61,7 @@ export const AboutUsSection = () => {
           />
         </SwiperSlide>
 
-        <SwiperSlide>
+        <SwiperSlide className="py-4">
           <RateCard
             image="/assets/erkin.jpg"
             name="Erkin"
@@ -70,7 +70,7 @@ export const AboutUsSection = () => {
           />
         </SwiperSlide>
 
-        <SwiperSlide>
+        <SwiperSlide className="py-4">
           <RateCard
             image="/assets/anton.jpg"
             name="Anton"
