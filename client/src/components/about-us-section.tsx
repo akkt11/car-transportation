@@ -4,9 +4,6 @@ import { QuoteRightIcon } from "../icons/quote-right-icon";
 import { RateCard } from "../shared/rate-card/rate-card";
 import { Typography } from "../shared/typography/typography";
 import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
-import "swiper/css/effect-coverflow";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
 
 export const AboutUsSection = () => {
   return (
