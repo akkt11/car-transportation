@@ -82,7 +82,7 @@ export const FillFolmSection = () => {
             <input
               name="car"
               required
-              placeholder="Введите модель машину"
+              placeholder="Введите модель машины"
               className="h-10 bg-theme-white rounded-lg p-6"
               value={formData.car}
               onChange={handleChange}
