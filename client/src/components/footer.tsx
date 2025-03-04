@@ -1,6 +1,8 @@
+import { InstagramIcon } from "../icons/instagram-icon";
 import { LineEmailIcon } from "../icons/line-email-icon";
 import { LineLocationIcon } from "../icons/line-location-icon";
 import { LinePhoneIcon } from "../icons/line-phone-icon";
+import { YouTubeIcon } from "../icons/youtube-icon";
 import { Typography } from "../shared/typography/typography";
 
 export const Footer = () => {
@@ -78,6 +80,16 @@ export const Footer = () => {
             <Typography variant="paragraph" color="white" weight="medium">
               Follow Us
             </Typography>
+
+            <div className="flex gap-2">
+              <div className="cursor-pointer">
+                <InstagramIcon />
+              </div>
+
+              <div className="cursor-pointer">
+                <YouTubeIcon />
+              </div>
+            </div>
           </div>
         </div>
       </div>
