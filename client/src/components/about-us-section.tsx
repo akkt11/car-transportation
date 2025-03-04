@@ -34,7 +34,7 @@ export const AboutUsSection = () => {
       <div className="flex justify-center gap-10">
         <div className="z-50">
           <RateCard
-            image="../../public/assets/man 1.png"
+            image="/assets/man 1.png"
             name="Charlie Johnson"
             comment=" «Я чувствую себя очень уверенно, когда пользуюсь услугами Caretall.
           Ваша служба поддержки клиентов работает с большим энтузиазмом, а

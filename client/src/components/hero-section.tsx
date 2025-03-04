@@ -19,7 +19,7 @@ export const HeroSection = () => {
 
         <div>
           <img
-            src="../../public/assets/BMW-PNG-Image-Background.png"
+            src="/assets/BMW-PNG-Image-Background.png"
             alt="blue bwm car"
             width={1048}
             className="absolute translate-x-64 right-0 -top-28"
