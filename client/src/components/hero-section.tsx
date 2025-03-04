@@ -7,7 +7,7 @@ export const HeroSection = () => {
       className="pt-[160px] pb-[150px] flex bg-theme-primary-300"
     >
       <div className="container relative">
-        <div className="max-w-[500px] space-y-[40px] px-6">
+        <div className="max-w-[500px] space-y-[40px] px-6 animate-text">
           <Typography variant="h1">
             Найти, забронировать и привезти авто{" "}
             <span className="text-theme-primary-100">легко!</span>
@@ -24,7 +24,7 @@ export const HeroSection = () => {
             src="/assets/BMW-PNG-Image-Background.png"
             alt="blue bwm car"
             width={1048}
-            className="absolute translate-x-64 right-0 -top-28"
+            className="absolute translate-x-64 right-0 -top-28 animate-car"
           />
         </div>
       </div>

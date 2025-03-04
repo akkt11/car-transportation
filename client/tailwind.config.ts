@@ -25,6 +25,20 @@ const config: Config = {
         "theme-grey-200": "#b6b6b6",
         "theme-grey-300": "#959595",
       },
+      animation: {
+        car: "moveCar 0.8s ease-out forwards",
+        text: "moveText 0.6s ease-out forwards",
+      },
+      keyframes: {
+        moveCar: {
+          "0%": { transform: "translateX(100%)", opacity: "0" },
+          "100%": { transform: "translateX(0)", opacity: "1" },
+        },
+        moveText: {
+          "0%": { transform: "translateX(-100%)" },
+          "100%": { transform: "translateX(0)" },
+        },
+      },
     },
   },
 };

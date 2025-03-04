@@ -14,7 +14,7 @@ export const Navbar = () => {
         <div>
           <Link to={"home"} smooth={true} duration={500}>
             <Typography color="grey-100" variant="paragraph" weight="medium">
-              RENTCARS
+              FlagmaAutoKG
             </Typography>
           </Link>
         </div>

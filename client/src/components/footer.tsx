@@ -9,7 +9,7 @@ export const Footer = () => {
       <div className="container flex">
         <div className="flex flex-col gap-6 flex-1">
           <Typography variant="paragraph" weight="semibold" color="white">
-            Rentcars
+            FlagmaAutoKG
           </Typography>
 
           <div className="flex gap-2">
@@ -55,7 +55,7 @@ export const Footer = () => {
 
           <div className="space-y-8">
             <Typography variant="paragraph" color="white" weight="medium">
-              About Rentcars
+              About FlagmaAutoKG
             </Typography>
 
             <div>

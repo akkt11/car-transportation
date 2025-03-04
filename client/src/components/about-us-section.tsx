@@ -36,7 +36,7 @@ export const AboutUsSection = () => {
           <RateCard
             image="/assets/man 1.png"
             name="Charlie Johnson"
-            comment=" «Я чувствую себя очень уверенно, когда пользуюсь услугами Caretall.
+            comment=" «Я чувствую себя очень уверенно, когда пользуюсь услугами FlagmaAutoKG.
           Ваша служба поддержки клиентов работает с большим энтузиазмом, а
           водитель всегда приезжает вовремя»."
             city="From New York, US"

@@ -60,7 +60,7 @@ export const WhyUsSection = () => {
             <Card
               variant="row"
               label="Техническая поддержка 24/7"
-              description="У вас есть вопрос? Обратитесь в службу поддержки Rentcars в любое время, когда у вас возникнут проблемы."
+              description="У вас есть вопрос? Обратитесь в службу поддержки FlagmaAutoKG в любое время, когда у вас возникнут проблемы."
               icon={<MessageIcon />}
             />
           </div>
