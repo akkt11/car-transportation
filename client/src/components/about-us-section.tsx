@@ -38,6 +38,7 @@ export const AboutUsSection = () => {
         spaceBetween={200}
         grabCursor
         centeredSlides
+        navigation
         modules={[EffectCoverflow, Pagination, Navigation]}
       >
         <SwiperSlide>
