@@ -1,2 +1,4 @@
 @import "tailwindcss";
 @config "../tailwind.config.ts";
+@import "swiper/css";
+@import "swiper/css/bundle";

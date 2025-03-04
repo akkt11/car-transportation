@@ -12,8 +12,8 @@ export const RateCard = ({ city, comment, name, image }: Props) => {
   return (
     <div className="w-[794px] rounded-3xl bg-theme-white flex z-50">
       {image ? (
-        <div className="flex-1">
-          <img src={image} />
+        <div className="flex-1 h-[438px]">
+          <img src={image} className="object-cover h-full" />
         </div>
       ) : (
         <div></div>
