@@ -7,7 +7,7 @@ import { Typography } from "../shared/typography/typography";
 
 export const PopularDealsSection = () => {
   return (
-    <section className="py-[80px] container">
+    <section id="cars" className="py-[80px] container">
       <div className="max-w-[1120px] flex justify-center mx-auto text-center gap-[80px] flex-col">
         <div className="space-y-8">
           <div className="bg-theme-primary-300 py-4 px-8 rounded-lg inline-block">

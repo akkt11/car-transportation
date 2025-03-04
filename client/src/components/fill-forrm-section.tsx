@@ -35,7 +35,7 @@ export const FillFolmSection = () => {
   };
 
   return (
-    <section className="py-[80px] container">
+    <section id="contact" className="py-[80px] container">
       <div className="space-y-8 text-center">
         <div className="bg-theme-primary-300 py-4 px-8 rounded-lg inline-block">
           <Typography

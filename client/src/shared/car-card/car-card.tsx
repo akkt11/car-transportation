@@ -6,6 +6,7 @@ import { UserIcon } from "../../icons/user-icon";
 import { EngineIcon } from "../../icons/engine-icon";
 import { AirIcon } from "../../icons/air-icon";
 import { DoorIcon } from "../../icons/door-icon";
+import { animateScroll as scroll } from "react-scroll";
 
 type Props = {
   title: string;
@@ -16,6 +17,10 @@ type Props = {
 };
 
 export const CarCard = ({ title, rating, price, icon, doors }: Props) => {
+  const scrollToBottom = () => {
+    scroll.scrollToBottom();
+  };
+
   return (
     <div className="shadow-2xl p-6 rounded-2xl w-[256px] flex flex-col justify-between">
       <div>{icon}</div>
@@ -76,7 +81,9 @@ export const CarCard = ({ title, rating, price, icon, doors }: Props) => {
         </div>
       </div>
 
-      <Button className="w-full">Заказать</Button>
+      <Button className="w-full" onClick={scrollToBottom}>
+        Заказать
+      </Button>
     </div>
   );
 };

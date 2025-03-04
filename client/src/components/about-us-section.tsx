@@ -5,7 +5,7 @@ import { Typography } from "../shared/typography/typography";
 
 export const AboutUsSection = () => {
   return (
-    <section className="relative py-[80px] bg-theme-primary-400">
+    <section id="rates" className="relative py-[80px] bg-theme-primary-400">
       <div className="absolute top-0 right-10">
         <QuoteLeftIcon />
       </div>

@@ -1,9 +1,11 @@
 import { LineIcon } from "../icons/line-icon";
 import { Typography } from "../shared/typography/typography";
-
 export const HeroSection = () => {
   return (
-    <section className="pt-[160px] pb-[150px] flex bg-theme-primary-300">
+    <section
+      id="home"
+      className="pt-[160px] pb-[150px] flex bg-theme-primary-300"
+    >
       <div className="container relative">
         <div className="max-w-[500px] space-y-[40px] px-6">
           <Typography variant="h1">

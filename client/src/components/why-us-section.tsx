@@ -7,7 +7,7 @@ import { Typography } from "../shared/typography/typography";
 
 export const WhyUsSection = () => {
   return (
-    <section className="py-[80px] container relative">
+    <section id="why" className="py-[80px] container relative">
       <div className="flex flex-row-reverse">
         <div>
           <img

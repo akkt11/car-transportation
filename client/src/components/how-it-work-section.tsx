@@ -6,7 +6,7 @@ import { Typography } from "../shared/typography/typography";
 
 export const HowItWorkSection = () => {
   return (
-    <section className="py-[80px] container">
+    <section id="how" className="py-[80px] container">
       <div className="max-w-[736px] flex justify-center mx-auto text-center gap-[80px] flex-col">
         <div className="space-y-8">
           <div className="bg-theme-primary-300 py-4 px-8 rounded-lg inline-block">
