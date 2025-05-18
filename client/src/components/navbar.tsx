@@ -26,12 +26,12 @@ export const Navbar = () => {
                 Продукты
               </Typography>
             </Link>
-            <Link to={"how"} className="cursor-pointer">
+            <Link to="how-it-works" className="cursor-pointer">
               <Typography color="grey-100" variant="paragraph" weight="medium">
                 Как это работает
               </Typography>
             </Link>
-            <Link to={"why"} className="cursor-pointer">
+            <Link to="about-us" className="cursor-pointer">
               <Typography color="grey-100" variant="paragraph" weight="medium">
                 О Нас
               </Typography>
