@@ -11,35 +11,35 @@ export const MiddleProducts = () => {
           rating={4}
           price={10800}
           doors={4}
-          src="../public/assets/toyota-xml.png"
+          src="../assets/toyota-xml.png"
         />
         <CarCard
           title="Hyundai Elantra SEL"
           rating={4.8}
           price={10100}
           doors={4}
-          src="../public/assets/hyundai-elantra.png"
+          src="../assets/hyundai-elantra.png"
         />
         <CarCard
           title="Mazda 3 Preferred"
           rating={3}
           price={1010600}
           doors={4}
-          src="../public/assets/mazda-3.png"
+          src="../assets/mazda-3.png"
         />
         <CarCard
           title="Kia Forte LXS"
           rating={3.3}
           price={10300}
           doors={4}
-          src="../public/assets/kia-forte.png"
+          src="../assets/kia-forte.png"
         />
         <CarCard
           title="Kia Rio LX"
           rating={3.5}
           price={10300}
           doors={4}
-          src="../public/assets/kia-rio.png"
+          src="../assets/kia-rio.png"
         />
       </div>
     </div>

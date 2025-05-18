@@ -11,28 +11,28 @@ export const BottomProducts = () => {
           rating={5}
           price={5100}
           doors={4}
-          src="../public/assets/honda-civic.png"
+          src="../assets/honda-civic.png"
         />
         <CarCard
           title="Hyundai Accent"
           rating={2}
           price={8600}
           doors={4}
-          src="../public/assets/hyundai-accent.png"
+          src="../assets/hyundai-accent.png"
         />
         <CarCard
           title="Nissan Versa S"
           rating={4}
           price={4300}
           doors={4}
-          src="../public/assets/nissan-versa.png"
+          src="../assets/nissan-versa.png"
         />
         <CarCard
           title="Kia Rio LX"
           rating={3}
           price={6300}
           doors={4}
-          src="../public/assets/kia-rio.png"
+          src="../assets/kia-rio.png"
         />
       </div>
     </div>

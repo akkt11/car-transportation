@@ -6,7 +6,7 @@ export const HowItWorks = () => {
           <div className="flex-1">
             <div>
               <img
-                src="../public/assets/zayavka.png"
+                src="../assets/zayavka.png"
                 alt="image"
                 className="rounded-2xl object-cover h-[700px] w-[780px]"
               />
@@ -32,7 +32,7 @@ export const HowItWorks = () => {
           <div className="flex-1">
             <div>
               <img
-                src="../public/assets/load-car.png"
+                src="../assets/load-car.png"
                 alt="image"
                 className="rounded-2xl object-cover h-[700px] w-[780px]"
               />
@@ -58,7 +58,7 @@ export const HowItWorks = () => {
           <div className="flex-1">
             <div>
               <img
-                src="../public/assets/give-car.png"
+                src="../assets/give-car.png"
                 alt="image"
                 className="rounded-2xl object-cover h-[700px] w-[780px]"
               />
