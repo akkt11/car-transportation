@@ -1,7 +1,3 @@
-import { AudiCarIcon } from "../icons/audi-car-icon";
-import { BmwCarIcon } from "../icons/bmw-car-icon";
-import { JaguarCarIcon } from "../icons/jaguar-car-icont";
-import { LamboCarIcon } from "../icons/lambo-car-icon";
 import { CarCard } from "../shared/car-card/car-card";
 import { Typography } from "../shared/typography/typography";
 
@@ -32,28 +28,28 @@ export const PopularDealsSection = () => {
             rating={4.5}
             price={11800}
             doors={4}
-            icon={<JaguarCarIcon />}
+            src="../public/assets/toyota-xml.png"
           />
           <CarCard
             title="Audi R8"
             rating={4.8}
             price={23100}
             doors={2}
-            icon={<AudiCarIcon />}
+            src="../public/assets/toyota-xml.png"
           />
           <CarCard
             title="BMW M3"
             rating={4.4}
             price={11600}
             doors={4}
-            icon={<BmwCarIcon />}
+            src="../public/assets/toyota-xml.png"
           />
           <CarCard
             title="Lamborghini Huracan"
             rating={4.3}
             price={12300}
             doors={2}
-            icon={<LamboCarIcon />}
+            src="../public/assets/toyota-xml.png"
           />
         </div>
       </div>

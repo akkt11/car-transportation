@@ -6,7 +6,7 @@ import { HowItWorkSection } from "../components/how-it-work-section";
 import { PopularDealsSection } from "../components/popular-deals-section";
 import { WhyUsSection } from "../components/why-us-section";
 
-export const MainPage = () => {
+export const Home = () => {
   return (
     <>
       <HeroSection />

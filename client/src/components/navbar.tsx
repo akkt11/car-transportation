@@ -1,4 +1,4 @@
-import { Link } from "react-scroll";
+import { Link } from "react-router";
 import { Button } from "../shared/button/button";
 import { Typography } from "../shared/typography/typography";
 import { animateScroll as scroll } from "react-scroll";
@@ -9,46 +9,38 @@ export const Navbar = () => {
   };
 
   return (
-    <div className="absolute w-full z-50">
-      <div className="container min-h-[90px] flex justify-between items-center">
-        <div>
-          <Link to={"home"} smooth={true} duration={500}>
-            <Typography color="grey-100" variant="paragraph" weight="medium">
-              FlagmaAutoKG
-            </Typography>
-          </Link>
-        </div>
+    <header>
+      <div className="w-full z-50">
+        <div className="container min-h-[90px] flex justify-between items-center">
+          <div>
+            <Link to="/" className="cursor-pointer">
+              <Typography color="grey-100" variant="paragraph" weight="medium">
+                FlagmaAutoKG
+              </Typography>
+            </Link>
+          </div>
 
-        <div className="flex gap-[40px]">
-          <Link to={"how"} smooth={true} duration={500}>
-            <Typography color="grey-100" variant="paragraph" weight="medium">
-              Как это работает
-            </Typography>
-          </Link>
-          <Link to={"why"} smooth={true} duration={500}>
-            <Typography color="grey-100" variant="paragraph" weight="medium">
-              О Нас
-            </Typography>
-          </Link>
-          <Link to={"cars"} smooth={true} duration={500}>
-            <Typography color="grey-100" variant="paragraph" weight="medium">
-              Машины
-            </Typography>
-          </Link>
-          <Link to={"rates"} smooth={true} duration={500}>
-            <Typography color="grey-100" variant="paragraph" weight="medium">
-              Отзывы
-            </Typography>
-          </Link>
-          <Link to={"contact"} smooth={true} duration={500}>
-            <Typography color="grey-100" variant="paragraph" weight="medium">
-              Контакты
-            </Typography>
-          </Link>
-        </div>
+          <div className="flex gap-[40px]">
+            <Link to="/products" className="cursor-pointer">
+              <Typography color="grey-100" variant="paragraph" weight="medium">
+                Продукты
+              </Typography>
+            </Link>
+            <Link to={"how"} className="cursor-pointer">
+              <Typography color="grey-100" variant="paragraph" weight="medium">
+                Как это работает
+              </Typography>
+            </Link>
+            <Link to={"why"} className="cursor-pointer">
+              <Typography color="grey-100" variant="paragraph" weight="medium">
+                О Нас
+              </Typography>
+            </Link>
+          </div>
 
-        <Button onClick={scrollToBottom}>Заказать</Button>
+          <Button onClick={scrollToBottom}>Заказать</Button>
+        </div>
       </div>
-    </div>
+    </header>
   );
 };

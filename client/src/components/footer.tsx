@@ -7,6 +7,7 @@ import { Typography } from "../shared/typography/typography";
 
 export const Footer = () => {
   return (
+        <footer>
     <div className="bg-theme-primary-200 pt-10 pb-16">
       <div className="container flex">
         <div className="flex flex-col gap-6 flex-1">
@@ -94,5 +95,6 @@ export const Footer = () => {
         </div>
       </div>
     </div>
+    </footer>
   );
 };

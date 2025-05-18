@@ -7,17 +7,13 @@ type Props = ComponentProps<"div">;
 export const Layout = ({ children }: Props) => {
   return (
     <>
-      <header>
-        <Navbar />
-      </header>
+      <Navbar />
 
       <main className="overflow-hidden flex flex-col min-h-screen">
         {children}
       </main>
 
-      <footer>
-        <Footer />
-      </footer>
+      <Footer />
     </>
   );
 };

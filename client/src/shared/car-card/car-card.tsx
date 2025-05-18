@@ -1,4 +1,3 @@
-import { ReactNode } from "react";
 import { Button } from "../button/button";
 import { Typography } from "../typography/typography";
 import { StarIcon } from "../../icons/star-icon";
@@ -13,19 +12,19 @@ type Props = {
   rating: number;
   price: number;
   doors: number;
-  icon: ReactNode;
+  src: string;
 };
 
-export const CarCard = ({ title, rating, price, icon, doors }: Props) => {
+export const CarCard = ({ title, rating, price, src, doors }: Props) => {
   const scrollToBottom = () => {
     scroll.scrollToBottom();
   };
 
   return (
-    <div className="shadow-2xl p-6 rounded-2xl w-[256px] flex flex-col justify-between">
-      <div>{icon}</div>
+    <div className="shadow-2xl rounded-2xl w-[300px] flex flex-col justify-between overflow-hidden">
+      <img src={src} alt="car" className="object-cover h-60" />
 
-      <div className="pt-6">
+      <div className="p-6">
         <div className="text-left space-y-3">
           <Typography variant="paragraph" weight="medium">
             {title}
@@ -79,11 +78,11 @@ export const CarCard = ({ title, rating, price, icon, doors }: Props) => {
             ${price}{" "}
           </Typography>
         </div>
-      </div>
 
-      <Button className="w-full" onClick={scrollToBottom}>
-        Заказать
-      </Button>
+        <Button className="w-full" onClick={scrollToBottom}>
+          Заказать
+        </Button>
+      </div>
     </div>
   );
 };
