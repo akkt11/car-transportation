@@ -9,7 +9,7 @@ export const WhyUsSection = () => {
   return (
     <section id="why" className="py-[80px] container relative">
       <div className="flex flex-row-reverse">
-        <div>
+        <div className="hidden md:block">
           <img
             src="/assets/2023-Audi-R8-front_51535_032_1848x697_6Y6Y_cropped.png"
             alt="blue bwm car"
@@ -18,7 +18,7 @@ export const WhyUsSection = () => {
         </div>
 
         <div className="max-w-[570px]">
-          <div className="space-y-8 mb-[56px]">
+          <div className="space-y-8 mb-[56px] text-center md:text-left">
             <div className="bg-theme-primary-300 py-4 px-8 rounded-lg inline-block">
               <Typography
                 variant="caption"

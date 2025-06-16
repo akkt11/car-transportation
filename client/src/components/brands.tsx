@@ -6,7 +6,7 @@ import { VolvoIcon } from "../icons/volvo-icon";
 
 export const Brands = () => {
   return (
-    <div className="flex gap-[96px] justify-between px-16 items-start">
+    <div className="flex gap-12 px-4 sm:gap-[96px] sm:justify-between sm:px-16 items-start">
       <JaguarIcon />
       <NissanIcon />
       <VolvoIcon />

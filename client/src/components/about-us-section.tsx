@@ -8,11 +8,11 @@ import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
 export const AboutUsSection = () => {
   return (
     <section id="rates" className="relative py-[80px] bg-theme-primary-400">
-      <div className="absolute top-0 right-10">
+      <div className="absolute top-0 right-10 hidden sm:block">
         <QuoteLeftIcon />
       </div>
 
-      <div className="absolute top-20">
+      <div className="absolute top-20 hidden sm:block">
         <QuoteRightIcon />
       </div>
 
@@ -34,7 +34,10 @@ export const AboutUsSection = () => {
       </div>
 
       <Swiper
-        slidesPerView={2}
+        slidesPerView={1}
+        breakpoints={{
+          768: { slidesPerView: 2 },
+        }}
         spaceBetween={200}
         grabCursor
         centeredSlides
@@ -58,15 +61,6 @@ export const AboutUsSection = () => {
             name="Jenny Wilson"
             comment="«Я пользуюсь вашими услугами уже 3 года. Ваш сервис великолепен, я буду продолжать пользоваться вашими услугами»."
             city="Moscow"
-          />
-        </SwiperSlide>
-
-        <SwiperSlide className="py-4">
-          <RateCard
-            image="/assets/erkin.jpg"
-            name="Erkin"
-            comment="Очень хорошо"
-            city="Bishkek"
           />
         </SwiperSlide>
 

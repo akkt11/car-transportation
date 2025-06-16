@@ -5,7 +5,7 @@ export const MiddleProducts = () => {
     <div className="space-y-6">
       <h2 className="text-5xl font-semibold">Middle products</h2>
 
-      <div className="flex gap-6 flex-wrap">
+      <div className="flex gap-6 justify-center md:justify-stretch flex-wrap">
         <CarCard
           title="Toyota Camry XLE"
           rating={4}

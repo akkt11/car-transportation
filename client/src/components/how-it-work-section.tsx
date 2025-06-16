@@ -25,7 +25,7 @@ export const HowItWorkSection = () => {
           </Typography>
         </div>
 
-        <div className="flex justify-between">
+        <div className="flex flex-col sm:flex-row items-center gap-12 sm:gap-0 justify-between">
           <Card
             icon={<LocationIcon />}
             label="Выберите локацию"

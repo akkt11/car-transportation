@@ -22,7 +22,7 @@ export const PopularDealsSection = () => {
           </Typography>
         </div>
 
-        <div className="flex justify-between gap-6">
+        <div className="flex justify-between gap-6 flex-col md:flex-row items-center">
           <CarCard
             title="Jaguar XE L P250"
             rating={4.5}

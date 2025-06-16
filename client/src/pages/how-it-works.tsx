@@ -2,7 +2,7 @@ export const HowItWorks = () => {
   return (
     <section className="pt-[80px] pb-[80px]">
       <div className="container space-y-12">
-        <div className="flex gap-8">
+        <div className="flex flex-col md:flex-row gap-8">
           <div className="flex-1">
             <div>
               <img
@@ -28,7 +28,7 @@ export const HowItWorks = () => {
             </div>
           </div>
         </div>
-        <div className="flex gap-8 flex-row-reverse">
+        <div className="flex flex-col gap-8 md:flex-row-reverse">
           <div className="flex-1">
             <div>
               <img
@@ -54,7 +54,7 @@ export const HowItWorks = () => {
             </div>
           </div>
         </div>
-        <div className="flex gap-8">
+        <div className="flex flex-col md:flex-row gap-8">
           <div className="flex-1">
             <div>
               <img

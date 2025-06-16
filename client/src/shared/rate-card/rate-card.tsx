@@ -10,10 +10,10 @@ type Props = {
 
 export const RateCard = ({ city, comment, name, image }: Props) => {
   return (
-    <div className="w-[794px] rounded-3xl bg-theme-white flex z-50 shadow-lg">
+    <div className="md:w-[794px] m-[50px] sm:m-[125px] md:m-0 flex-col md:flex-row rounded-3xl bg-theme-white flex z-50 shadow-lg">
       {image ? (
-        <div className="flex-1 h-[438px]">
-          <img src={image} className="object-cover h-full" />
+        <div className="flex-1 h-full">
+          <img src={image} className="object-cover h-full md:w-auto w-full" />
         </div>
       ) : (
         <div></div>

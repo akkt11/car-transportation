@@ -36,7 +36,7 @@ export const AboutUsFaq = () => {
 
   return (
     <section className="pt-[30px] pb-[30px]">
-      <div className="container space-y-8 flex">
+      <div className="container space-y-8 flex flex-col md:flex-row">
         <div className="flex-1">
           <h2 className="text-6xl font-bold w-[500px]">
             Часто задаваемые вопросы
