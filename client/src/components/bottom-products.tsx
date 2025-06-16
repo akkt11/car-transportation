@@ -3,9 +3,11 @@ import { CarCard } from "../shared/car-card/car-card";
 export const BottomProducts = () => {
   return (
     <div className="space-y-6">
-      <h2 className="text-5xl font-semibold">Bottom products</h2>
+      <h2 className="text-5xl font-semibold text-center md:text-left">
+        Bottom products
+      </h2>
 
-      <div className="flex gap-6 flex-wrap">
+      <div className="flex gap-6 justify-center md:justify-stretch flex-wrap">
         <CarCard
           title="Honda Civic"
           rating={5}

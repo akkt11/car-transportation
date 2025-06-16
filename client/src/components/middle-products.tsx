@@ -3,7 +3,9 @@ import { CarCard } from "../shared/car-card/car-card";
 export const MiddleProducts = () => {
   return (
     <div className="space-y-6">
-      <h2 className="text-5xl font-semibold">Middle products</h2>
+      <h2 className="text-5xl font-semibold text-center md:text-left">
+        Middle products
+      </h2>
 
       <div className="flex gap-6 justify-center md:justify-stretch flex-wrap">
         <CarCard
